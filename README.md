@@ -12,5 +12,5 @@ A good way to test the program is to request a split with a very big maximum siz
 
 Steps to split a file in smaller 500000 maximum byte files:
 * Install sbt if not already done.
-* sbt clean assembly
+* sbt clean compile assembly
 * java -jar ./target/scala-2.13/ics_split.jar <your big file> 500000 
