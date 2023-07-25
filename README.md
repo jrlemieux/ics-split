@@ -1,7 +1,7 @@
 # ics-split
 Google Agenda .ics file splitter
 
-Strangely, Google Agenda allows us to export our data in a single export file, but this file can't be imported if it is too big. So we need a tool to split the exported file into smaller files, suitable for import.
+Strangely, Google Agenda allows us to export our data in a single export file, but this file can't later be imported if it is too big. So we need a tool to split the exported file into smaller files, suitable for import.
 
 This project creates an executable jar program that will create smaller files from a bigger file.
 
